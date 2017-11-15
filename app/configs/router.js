@@ -1,5 +1,5 @@
 import { TabNavigator, StackNavigator } from 'react-navigation'
-import Home from './Home'
+import Home from '../screens/home/index'
 import ReactNative from 'react-native'
 
 const {
