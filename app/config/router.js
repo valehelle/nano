@@ -1,5 +1,5 @@
 import { TabNavigator, StackNavigator } from 'react-navigation'
-import Home from '../screens/home/index'
+import * as Screen  from '../containers'
 import ReactNative from 'react-native'
 
 const {
@@ -12,7 +12,7 @@ const {
 
 export const HomeStack = StackNavigator({
     Home:{
-        screen: Home,
+        screen: Screen.home,
         navigationOptions:{
             title: 'Home',
         }

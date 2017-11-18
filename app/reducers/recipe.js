@@ -1,5 +1,5 @@
 import createReducer from './createReducer'
-import * as types from '../configs/type'
+import * as types from '../helpers/type'
 
 export const searchedRecipes = createReducer({}, {
     [types.SET_SEARCHED_RECIPES](state, action) {

@@ -1,4 +1,4 @@
-import * as types from '../configs/type'
+import * as types from '../helpers/type'
 
 export function fetchRecipes(ingredients){
     return(dispatch, getState) => {
