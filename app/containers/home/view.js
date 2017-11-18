@@ -10,7 +10,6 @@ const {
 
 class Home extends Component{
     startButtonPress(){
-        console.log('HI')
     }
     render(){
 
